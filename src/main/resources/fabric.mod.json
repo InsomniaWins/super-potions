@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "super_potions",
+  "version": "${version}",
+  "name": "Super Potions",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/super_potions/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "wins.insomnia.super_potions.client.SuperPotionsClient"
+    ],
+    "main": [
+      "wins.insomnia.super_potions.SuperPotions"
+    ]
+  },
+  "mixins": [
+    "super_potions.mixins.json",
+    {
+      "config": "super_potions.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
