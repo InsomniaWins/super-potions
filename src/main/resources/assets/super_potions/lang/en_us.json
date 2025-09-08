@@ -1,5 +1,33 @@
 {
-  "itemGroup.super_potions": "Example Mod Tab",
-  "block.super_potions.example_block": "Example Block",
-  "item.super_potions.example_item": "Example Item"
+  "item.minecraft.potion.effect.super_leaping": "Potion of Leaping",
+  "item.minecraft.potion.effect.super_swiftness": "Potion of Swiftness",
+  "item.minecraft.potion.effect.super_slowness": "Potion of Slowness",
+  "item.minecraft.potion.effect.super_turtle_master": "Potion of the Turtle Master",
+  "item.minecraft.potion.effect.super_poison": "Potion of Poison",
+  "item.minecraft.potion.effect.super_regeneration": "Potion of Regeneration",
+  "item.minecraft.potion.effect.super_strength": "Potion of Strength",
+
+  "item.minecraft.splash_potion.effect.super_leaping": "Potion of Leaping",
+  "item.minecraft.splash_potion.effect.super_swiftness": "Potion of Swiftness",
+  "item.minecraft.splash_potion.effect.super_slowness": "Potion of Slowness",
+  "item.minecraft.splash_potion.effect.super_turtle_master": "Potion of the Turtle Master",
+  "item.minecraft.splash_potion.effect.super_poison": "Potion of Poison",
+  "item.minecraft.splash_potion.effect.super_regeneration": "Potion of Regeneration",
+  "item.minecraft.splash_potion.effect.super_strength": "Potion of Strength",
+
+  "item.minecraft.lingering_potion.effect.super_leaping": "Potion of Leaping",
+  "item.minecraft.lingering_potion.effect.super_swiftness": "Potion of Swiftness",
+  "item.minecraft.lingering_potion.effect.super_slowness": "Potion of Slowness",
+  "item.minecraft.lingering_potion.effect.super_turtle_master": "Potion of the Turtle Master",
+  "item.minecraft.lingering_potion.effect.super_poison": "Potion of Poison",
+  "item.minecraft.lingering_potion.effect.super_regeneration": "Potion of Regeneration",
+  "item.minecraft.lingering_potion.effect.super_strength": "Potion of Strength",
+
+  "item.minecraft.tipped_arrow.effect.super_leaping": "Arrow of Leaping",
+  "item.minecraft.tipped_arrow.effect.super_swiftness": "Arrow of Swiftness",
+  "item.minecraft.tipped_arrow.effect.super_slowness": "Arrow of Slowness",
+  "item.minecraft.tipped_arrow.effect.super_turtle_master": "Arrow of the Turtle Master",
+  "item.minecraft.tipped_arrow.effect.super_poison": "Arrow of Poison",
+  "item.minecraft.tipped_arrow.effect.super_regeneration": "Arrow of Regeneration",
+  "item.minecraft.tipped_arrow.effect.super_strength": "Arrow of Strength"
 }

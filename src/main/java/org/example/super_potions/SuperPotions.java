@@ -9,29 +9,32 @@ import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.neoforged.neoforge.common.NeoForge;
 import org.slf4j.Logger;
 
 
 @Mod(SuperPotions.MODID)
 public class SuperPotions {
     public static final String MODID = "super_potions";
-    private static final Logger LOGGER = LogUtils.getLogger();
+    public static final Logger LOGGER = LogUtils.getLogger();
+
 
     public SuperPotions(IEventBus modEventBus, ModContainer modContainer) {
 
         modEventBus.addListener(this::commonSetup);
 
+        NeoForge.EVENT_BUS.addListener(ModPotions::registerBrewingRecipes);
+
+        ModPotions.register(modEventBus);
+
     }
+
+
 
     private void commonSetup(final FMLCommonSetupEvent event) {
 
+
+
     }
 
-    @EventBusSubscriber(modid = MODID, bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
-    public static class ClientModEvents {
-        @SubscribeEvent
-        public static void onClientSetup(FMLClientSetupEvent event) {
-
-        }
-    }
 }
